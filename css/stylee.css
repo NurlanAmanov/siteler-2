@@ -378,6 +378,7 @@ option {
 }
 
 .image {
+    margin: auto;
     width: 320px;
     height: 340px;
 }
@@ -514,25 +515,25 @@ option {
 
 .ev-img h6 {
     color: #fff;
-    margin: 106px 2px;
+    margin: 50px 2px;
     font: 1.2em arial, sans-serif;
 }
 
 .ev-img2 h6 {
     color: #fff;
-    margin: 106px 2px;
+    margin: 160px 2px;
     font: 1.2em arial, sans-serif;
 }
 
 .ev-img3 h6 {
     color: #fff;
-    margin: 106px 2px;
+    margin: 160px 2px;
     font: 1.2em arial, sans-serif;
 }
 
 .ev-img4 h6 {
     color: #fff;
-    margin: 106px 2px;
+    margin: 160px 2px;
     font: 1.2em arial, sans-serif;
 }
 
@@ -1186,7 +1187,7 @@ footer {
 
     .formtext #btn2 {
         margin: 10px ;
-        width: 34%;
+        width: 35%;
         height: 40px;
         background: #4FD3C4;
         border-radius: 3px;
