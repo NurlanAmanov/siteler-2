@@ -394,6 +394,10 @@ option {
 
 
 }
+.hometext ul{
+    list-style: square;
+    font-size: .9em;
+}
 
 .home h2 {
     font: 15px 'Montserrat';
@@ -404,8 +408,8 @@ option {
 
 }
 
-.home p {
-    font: 11px/1.2 'Montserrat';
+.hometext p {
+    font: 1em/1.2 'Montserrat';
     color: #676767;
 
 
@@ -453,6 +457,9 @@ option {
    width: 100%;
     margin: auto;
 
+}
+.top-teklif{
+    text-align: center;
 }
 /* Top teklifler */
 .evler {
@@ -1253,18 +1260,25 @@ footer {
         margin: 10px;
 
     }
-
+    .hometext ul{
+        list-style: square;
+        font-size: .9em;
+    }
+    .hometext ol{
+       
+        font-size: .9em;
+    }
     .home h2 {
         font: 15px 'Montserrat';
         font-style: normal;
         font-weight: 500;
         color: #000;
-
-
+        margin-left: 5px;
     }
 
-    .home p {
-        font: 11px 'Montserrat';
+    .hometext p {
+        margin-left: 5px;
+        font: 1em 'Montserrat';
         color: #676767;
 
 
