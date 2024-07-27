@@ -717,6 +717,7 @@ option {
 
 .terefdasimg {
     margin: auto;
+ 
     width: 80%;
     display: flex;
     align-items: center;
@@ -727,6 +728,7 @@ option {
 }
 
 .terfdas-card img {
+    padding: 10px;
     background: #fff;
     margin: 10px;
     width: 40%;
