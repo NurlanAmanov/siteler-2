@@ -532,13 +532,13 @@ option {
 .ev-text {
     text-align: left;
     width: 100%;
-    padding: 15px;
+    padding: 3px 0;
 
 }
 
 .ev-text p {
     margin: 5px;
-    font: 1em 'Montserrat';
+    font: .9em 'Montserrat';
     font-weight: 500;
     color: #000;
 
