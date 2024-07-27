@@ -841,7 +841,9 @@ footer {
     font: .6em 'Montserrat';
     font-weight: 500;
 }
-
+footer a{
+    text-decoration: none;
+}
 .footercard2 {
     width: 100%;
     color: #fff;
@@ -1671,7 +1673,9 @@ width: 100%;
         width: 100%;
 
     }
-
+    footer a{
+        text-decoration: none;
+    }
     .footercontainer {
         width: 100%;
         background: #333333;
