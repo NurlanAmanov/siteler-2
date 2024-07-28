@@ -336,9 +336,9 @@ option {
 
 /* cardlar */
 .teklifler {
-    padding: 10px 0 ;
+    padding: 10px 0;
     width: 100%;
-  
+
 }
 
 .card2 {
@@ -395,7 +395,8 @@ option {
 
 
 }
-.hometext ul{
+
+.hometext ul {
     list-style: square;
     font-size: .9em;
 }
@@ -454,14 +455,17 @@ option {
 
 
 }
-.teklifler{
-   width: 100%;
+
+.teklifler {
+    width: 100%;
     margin: auto;
 
 }
-.top-teklif{
+
+.top-teklif {
     text-align: center;
 }
+
 /* Top teklifler */
 .evler {
     width: 100%;
@@ -562,6 +566,7 @@ option {
     margin: 5px;
     font-size: .7em;
 }
+
 /* Site arasdir */
 .sitearasdir {
     background: #fff;
@@ -655,9 +660,11 @@ option {
     flex-direction: column;
     overflow: hidden;
 }
-.cardtexts{
+
+.cardtexts {
     margin: 10px;
 }
+
 .satiscard {
     margin: 10px auto;
     display: flex;
@@ -717,7 +724,7 @@ option {
 
 .terefdasimg {
     margin: auto;
- 
+
     width: 80%;
     display: flex;
     align-items: center;
@@ -740,58 +747,11 @@ option {
     background-color: #635EBE;
     width: 100%;
 }
-
-.banner {
-    margin: auto;
-    background: url('../img/banner.png');
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column-reverse;
+.banner-main {
+    background: url("../img/Group\ 85f.png") center/cover no-repeat;
     width: 100%;
-    height: auto;
+    height: 12vh;
 
-}
-
-.banerimg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.bannertext {
-    margin: 2px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    translate: 0 -115%;
-    width: 100%;
-}
-
-.bannertext h4 {
-    font: 1em 'Montserrat';
-    font-weight: 600;
-    color: #fff;
-}
-
-.sotres {
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    translate: 0 70%;
-
-}
-
-.playapp {
-
-    margin: auto;
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
 }
 
 /* Footer */
@@ -841,9 +801,11 @@ footer {
     font: .6em 'Montserrat';
     font-weight: 500;
 }
-footer a{
+
+footer a {
     text-decoration: none;
 }
+
 .footercard2 {
     width: 100%;
     color: #fff;
@@ -911,7 +873,8 @@ footer a{
 
 @media only screen and (min-width: 768px) {
     body {
-        min-width: 940px;
+        max-width: 100%;
+        margin: auto;
     }
 
     #a1 {
@@ -1184,13 +1147,13 @@ footer a{
         border-radius: 3px;
         color: #fff;
         border: none;
-        margin: 10px ;
+        margin: 10px;
 
 
     }
 
     .formtext #btn2 {
-        margin: 10px ;
+        margin: 10px;
         width: 35%;
         height: 40px;
         background: #4FD3C4;
@@ -1199,13 +1162,15 @@ footer a{
         color: #fff;
         border: none;
     }
+
     .sections button {
         display: block;
     }
-    
+
     .formtext button {
         display: block;
     }
+
     .buttons #btn1:hover {
         background: #eba206;
         color: black;
@@ -1265,14 +1230,17 @@ footer a{
         margin: 10px;
 
     }
-    .hometext ul{
+
+    .hometext ul {
         list-style: square;
         font-size: .9em;
     }
-    .hometext ol{
-       
+
+    .hometext ol {
+
         font-size: .9em;
     }
+
     .home h2 {
         font: 15px 'Montserrat';
         font-style: normal;
@@ -1318,48 +1286,55 @@ footer a{
         border-radius: 3px;
     }
 
-    .arrows  {
+    .arrows {
         display: block;
-position: fixed;
-left: 12px;
-top: 120px;
+        position: fixed;
+        left: 12px;
+        top: 120px;
 
-}
-.arrows button{
-    padding: 5px;
-    text-align: center;
-}
-#lftbtn{
-width: 36px;
-height: 36px;
-background: #fff;
-border-radius: 50%;
-border: none;
+    }
 
-}
-#rghtbtn{
-margin-left:  10px;
-border: none;
-border-radius: 50%;
-width: 36px;
-height: 36px;
-background: #635EBE;
-}
-#lftbtn:hover{
-    background: #635EBE;
-    color: black;
-    transition: .3s ease;
-}
-#rghtbtn:hover{
-    background: #c6ff42;
-    color: black;
-    transition: .3s ease;
-}
-.btn a:hover{
-    background:#fff;
-    color: black;
-    transition: .2s ease;
-} 
+    .arrows button {
+        padding: 5px;
+        text-align: center;
+    }
+
+    #lftbtn {
+        width: 36px;
+        height: 36px;
+        background: #fff;
+        border-radius: 50%;
+        border: none;
+
+    }
+
+    #rghtbtn {
+        margin-left: 10px;
+        border: none;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        background: #635EBE;
+    }
+
+    #lftbtn:hover {
+        background: #635EBE;
+        color: black;
+        transition: .3s ease;
+    }
+
+    #rghtbtn:hover {
+        background: #c6ff42;
+        color: black;
+        transition: .3s ease;
+    }
+
+    .btn a:hover {
+        background: #fff;
+        color: black;
+        transition: .2s ease;
+    }
+
     /* Ev elan */
     .evler {
         width: 100%;
@@ -1373,7 +1348,7 @@ background: #635EBE;
     .card-ev {
         display: flex;
         align-items: center;
-        width: 250px!important;
+        width: 250px !important;
         justify-content: center;
         flex-direction: column;
         height: max-content;
@@ -1382,7 +1357,7 @@ background: #635EBE;
 
     }
 
-    
+
 
     .ev-img h6 {
 
@@ -1417,12 +1392,14 @@ background: #635EBE;
         margin-left: 10px;
         font-size: .8em;
     }
+
     .ev-img {
         border-radius: 5px 5px 0 0;
         width: 100%;
         background: url("../img/slider3.png")center/cover;
 
     }
+
     .ev-img2 {
         border-radius: 5px 5px 0 0;
         width: 100%;
@@ -1467,13 +1444,15 @@ background: #635EBE;
         margin: 106px 2px;
         font: 1.2em arial, sans-serif;
     }
-.evbblock{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: row;
-width: 100%;
-}
+
+    .evbblock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
     /* Site arasdir */
     .sitearasdir {
         background: #fff;
@@ -1617,65 +1596,58 @@ width: 100%;
         background-color: #635EBE;
     }
 
-    .banner {
+    .banner-main {
+        background: url("../img/Group\ 85f.png") no-repeat;
+        width: 100%;
+        height: 35vh;
 
-        background: url('../img/banner.png');
+    }
+
+    /* .banner-content {
         display: flex;
         align-items: center;
-        justify-content: center;
         flex-direction: row;
-
+        justify-content: space-between;
     }
 
-    .banerimg {
-        width: 100%;
+    .banner-left {
+    
+    }
+
+    .banner-left img {
         margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .banerimg img {
         width: 100%;
-        height: 250px;
-        object-fit: cover;
-
     }
 
-    .bannertext {
-
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
+    .banner-right {
+        overflow: hidden;
+        width: 80%;
     }
-
-    .bannertext h4 {
-        font: 20px 'Montserrat';
-        font-weight: 600;
+    .banner-right {
+        overflow: hidden;
+        width: 80%;
+    }
+    .banner-right h1 {
+   
+        font: 2em arial;
         color: #fff;
     }
-
-    .sotres {
-        translate: -80% 0;
-    }
-
-    .playapp {
-        width: 240px;
-        height: 200px;
-        object-fit: cover;
-    }
-
-    /* Footer */
-
+.banner-right img {
+width:40%;
+margin: auto;
+height:auto ;
+object-fit: cover;
+} */
     footer {
         background: #333333;
         width: 100%;
 
     }
-    footer a{
+
+    footer a {
         text-decoration: none;
     }
+
     .footercontainer {
         width: 100%;
         background: #333333;
@@ -1749,19 +1721,22 @@ width: 100%;
         font: 1em 'Montserrat';
         font-weight: 500;
     }
+
     .footercontainer h5 {
         font-size: 1.2em !important;
     }
+
     .ftcard2text i {
         font-size: 1.2em !important;
         margin: 5px;
     }
+
     .ftcard2text p {
         font-size: 1.2em !important;
     }
-    
+
     .footercard1 a {
-    
+
         text-decoration: none;
         color: #fff;
         font: 1.5em 'Montserrat';
