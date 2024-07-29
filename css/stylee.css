@@ -360,20 +360,20 @@ option {
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
 
 }
 
 .home {
     margin: 10px;
-    text-align: left;
-    width: 50%;
+    
+    width: 100%;
     height: max-content;
     justify-content: center;
     display: flex;
     flex-direction: column;
- 
+
     background: #fff;
 }
 
@@ -391,7 +391,8 @@ option {
 }
 
 .hometext {
-    margin: 10px auto;
+   
+    margin: 5px auto;
     width: 100%;
 
 
