@@ -595,6 +595,7 @@ option {
 .sitearasdir {
     background: #fff;
     width: 100%;
+    height: auto;
 }
 
 .siteblock {
@@ -603,7 +604,7 @@ option {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+height: auto;
 }
 
 .sitetext {
@@ -620,52 +621,9 @@ option {
     color: #000;
 }
 
-.siteimgs {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-}
 
-.testimg {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
 
-.siteimgs img {
-    width: 100%;
-    height: 90%;
-    object-fit: cover;
-    margin: 5px;
-    border-radius: 5px;
-    overflow: hidden;
 
-}
-
-.siteblock #site1 {
-    width: 100%;
-    height: 60%;
-    object-fit: cover;
-
-}
-
-.sekilyazi {
-    display: flex;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    width: 20%;
-    color: #000000;
-}
 
 /* Satis teklif  */
 .satis {
@@ -675,23 +633,24 @@ option {
 
 .wrapper {
     width: 100%;
-    height: 50vh;
+    height: 37vh;
     display: flex;
-
+    margin: auto;
     justify-content: center;
+   
 
 }
 
 .containerler {
-    height: 250px;
-    
+   
+    height: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
 }
 
 .card {
-    width: 250px;
+    width: 150px;
     border-radius: .75rem;
     background-size: cover;
     cursor: pointer;
@@ -759,15 +718,21 @@ option {
 
 .card[for="card1"] {
     background-image: url('../img/site1.png');
+    
+   
 }
 .card[for="card2"] {
     background-image:  url('../img/site2.png');
+    
+   
 }
 .card[for="card3"] {
     background-image: url('../img/site3.png');
+
+    
 }
 .card[for="card4"] {
-    background-image:  url('../img/site4.png');;
+    background-image:  url('../img/site4.png');
 }
 /* Satis teklif card */
 .satisblcok {
