@@ -528,25 +528,25 @@ option {
 
 .ev-img h6 {
     color: #fff;
-    margin: 110px 5px;
+    margin: 96px 5px;
     font: 1.2em arial, sans-serif;
 }
 
 .ev-img2 h6 {
     color: #fff;
-    margin: 110px 5px;
+    margin: 96px 5px;
     font: 1.2em arial, sans-serif;
 }
 
 .ev-img3 h6 {
     color: #fff;
-    margin: 110px 5px;
+    margin: 96px 5px;
     font: 1.2em arial, sans-serif;
 }
 
 .ev-img4 h6 {
     color: #fff;
-    margin: 110px 5px;
+    margin: 96px 5px;
     font: 1.2em arial, sans-serif;
 }
 
@@ -1580,41 +1580,7 @@ margin: 5px;
 
     }
 
-    /* .banner-content {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .banner-left {
-    
-    }
-
-    .banner-left img {
-        margin: auto;
-        width: 100%;
-    }
-
-    .banner-right {
-        overflow: hidden;
-        width: 80%;
-    }
-    .banner-right {
-        overflow: hidden;
-        width: 80%;
-    }
-    .banner-right h1 {
    
-        font: 2em arial;
-        color: #fff;
-    }
-.banner-right img {
-width:40%;
-margin: auto;
-height:auto ;
-object-fit: cover;
-} */
     footer {
         background: #333333;
         width: 100%;
