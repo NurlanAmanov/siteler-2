@@ -20,9 +20,14 @@
 
 <body>
     <header>
-        <div class="headtops">
+        <div  id="headline" class="headtops">
 
+           <div class="headtext">
             <h1>Peşəkar əmlakçı təlimləri artıq Bakıda!</h1>
+           </div>
+            <div id="closed">
+              <button onclick="removeHeadline()">X</button>
+            </div>
         </div>
         <div class="container">
             <nav class="navbar navbar-expand-lg ">
@@ -362,7 +367,7 @@
                 <a href="#">Biz kimik</a>
                 <a href="#">Kampaniyalar</a>
             </div>
-            <div class="footer-cards">
+            <div class="footer-cards ">
                 <h5>Bizimlə əlaqəyə keçin</h5>
                 <p>
                     <i class="fa-solid fa-phone fa-xs"></i>+012 477 77 77 <br>
@@ -372,10 +377,10 @@
                 </p>
 
             </div>
-            <div class="footer-cards">
+            <div class="footer-cards yuxariqalx">
                 <h5>Bizi sosial şəbəkələrdə izləyin</h5>
                 <div class="socialicons">
-                    <i class="fa-brands fa-facebook-f"></i>
+                   <img src="img/icons/fb.png"alt="">
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-youtube"></i>
                 </div>
@@ -454,7 +459,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha386h6-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    
+
+      
+    </script>
+    <script>
+          function removeHeadline() {
+            let headline = document.getElementById("headline");
+            if (headline) {
+                headline.remove();
+            }
+        }
+    </script>
 </body>
 
 </html>
