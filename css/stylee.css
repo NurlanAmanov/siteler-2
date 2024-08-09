@@ -367,7 +367,7 @@ option {
 
 .home {
     margin: 10px;
-    
+
     width: 100%;
     height: max-content;
     justify-content: center;
@@ -391,7 +391,7 @@ option {
 }
 
 .hometext {
-   
+
     margin: 5px auto;
     width: 100%;
 
@@ -402,8 +402,9 @@ option {
     list-style: square;
     font-size: .8em;
 }
+
 .hometext ol {
-    
+
     font-size: .8em;
 }
 
@@ -755,6 +756,7 @@ option {
     background-color: #635EBE;
     width: 100%;
 }
+
 .banner-main {
     background: url("../img/Group\ 85f.png") center/cover no-repeat;
     width: 100%;
@@ -771,95 +773,58 @@ footer {
 
 }
 
-.footercontainer {
-    overflow: hidden;
-    width: 100%;
-    background: #333333;
+
+.footercontent{
+        
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding: 5px;
-
-
-}
-
-.footercontainer h5 {
-    font-size: .8em !important;
-}
-
-.footercard1 {
-    margin: 10px;
-    width: 50%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
-    color: #fff;
-}
-
-.ftcard2text p {
-    font-size: .7em !important;
-}
-
-.footercard1 a {
-
-    text-decoration: none;
-    color: #fff;
-    font: .6em 'Montserrat';
-    font-weight: 500;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-.footercard2 {
+    padding: 10px;
     width: 100%;
-    color: #fff;
-    margin: 5px;
-    padding: 5px;
-}
 
-.ftcard2text i {
-    font-size: .9em !important;
+}
+.footer-cards{
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 20px;
+
+}
+.footer-cards h5{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 1em;
+color: #FFFFFF;
+
+
+}
+.footer-cards a{
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 1em;
+color: #FFFFFF;
+}
+.footer-cards p{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 1em;
+color: #FFF;
+margin: 5px;
+
+}
+.footer-cards p i{
+    font-size: .8em;
     margin: 5px;
 }
-.ftcard2text p {
-   text-decoration: none;
-}
-
-.socials {
-    margin: 10px;
-    width: 50%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
+.socialicons i{
     color: #fff;
-
+    font-size: 1em;
 }
-
-.socials h5 {
-    text-align: left;
-    font-size: .7em !important;
-}
-
-.socialicons {
-    width: 20%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-
-}
-
-.socialicons i {
-    font-size: .7em !important;
-    color: #fff;
-    margin-right: 5px;
-}
-
 .footerhr {
     margin: auto;
     width: 100%;
@@ -1065,9 +1030,7 @@ footer a {
         width: 100%;
         height: 164px;
         border-radius: 5px;
-
         overflow: hidden;
-
     }
 
     .filtr {
@@ -1215,64 +1178,69 @@ footer a {
 
     /* cardlar */
     .cards {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: row;
-      width: 100%;
-      margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
     }
 
     .home {
         background: #fff;
-        margin:  0 10px ;
+        margin: 0 10px;
         text-align: left;
-        width: 60%;
+        width: 100%;
         height: auto;
         justify-content: center;
+        min-width: 350px;
+
         display: flex;
         flex-direction: row;
-        
+
     }
-.image{
-    
-    width:450px;
-    height: 430px ;
-    
-}
-    .image img {
-    
+
+    .image {
+
         width: 100%;
-        height:100%;
-        object-fit: fill;
+        height: 100%;
+
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
     }
 
     .hometext {
         margin: 10px;
-        width: 100%;
+        width:60%;
     }
 
     .hometext ul {
         list-style: square;
-        font-size: .9em;
+        font-size: .7em;
     }
-
+.hometext li{
+    font-size: .9em;
+}
     .hometext ol {
 
-        font-size: .9em;
+        font-size: .7em;
     }
 
     .home h2 {
-        font: .9em 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
+        font: .7em 'Montserrat';
+        font-weight: 700;
         color: #000;
         margin-left: 5px;
     }
 
     .hometext p {
         margin-left: 5px;
-        font: .8em 'Montserrat';
+        font: .7em 'Montserrat';
         color: #676767;
 
 
@@ -1282,7 +1250,6 @@ footer a {
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
-       
         margin: 0 0 0 0;
     }
 
@@ -1301,7 +1268,7 @@ footer a {
         width: 100px;
         height: 30px;
         background: #573391;
-        font: 14px 'Montserrat';
+        font: .7em 'Montserrat';
         color: #FFFF;
         text-decoration: none;
         border-radius: 3px;
@@ -1654,61 +1621,50 @@ object-fit: cover;
 
     }
 
-    footer a {
-        text-decoration: none;
-    }
-
-    .footercontainer {
+    .footercontent{
         width: 100%;
-        background: #333333;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: row;
-        padding: 15px;
-
+        padding: 5px;
     }
+.footer-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.footer-cards h5{
+    text-align: left;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+color: #FFFFFF;
 
-    .footercard1 {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        color: #fff;
-    }
 
-    .footercard1 a {
-        margin-top: 10px;
-        text-decoration: none;
-        color: #fff;
-        font: 1em 'Montserrat';
-        font-weight: 500;
-    }
+}
+.footer-cards a{
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.footer-cards p{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 16px;
+color: #FFF;
+margin: 5px;
 
-    .socials {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        flex-direction: column;
-        color: #fff;
-
-    }
-
-    .socialicons {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        margin-bottom: 150px;
-
-    }
-
-    .socialicons i {
-        font-size: 2em;
-        color: #fff;
-        margin-right: 20px;
-    }
+}
+   
 
     .footerhr {
         margin: 20px auto;
