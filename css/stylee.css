@@ -71,7 +71,11 @@ body {
     font-family: 'Montserrat';
     color: #573391;
 }
-
+#lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #lang1,
 option {
     padding: 5px;
@@ -114,7 +118,9 @@ header {
     width: 963px;
     height: 108px;
 }
-
+nav{
+    background: #FFFFFF;
+}
 .txt h1 {
     margin: 150px auto;
     color: #fff;
@@ -910,6 +916,7 @@ footer {
 }
 
 .footer-cards p i {
+    text-decoration: none;
     font-size: .9em;
     margin: 5px;
 }
@@ -937,7 +944,7 @@ footer {
 .copyrght {
 
     color: #fff;
-    font: .7em 'Montserrat';
+    font: .9em 'Montserrat';
     font-weight: 500;
 }
 
