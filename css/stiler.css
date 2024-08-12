@@ -362,7 +362,7 @@ margin: 0 5px;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    
    
 }
 
@@ -1086,6 +1086,7 @@ color: #8f8e8e;
     flex-wrap: wrap; 
     justify-content: center;
     margin: auto;
+    gap: 0;
 }
 
 .cards{
