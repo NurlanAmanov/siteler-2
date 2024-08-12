@@ -552,25 +552,25 @@ option {
 
 .ev-img h6 {
     color: #fff;
-    margin: 152px 5px;
+    margin: 100px 5px;
     font: 1.2em arial, sans-serif;
 }
 
 .ev-img2 h6 {
     color: #fff;
-    margin: 152px 5px;
+    margin: 100px 5px;
     font: 1.2em arial, sans-serif;
 }
 
 .ev-img3 h6 {
     color: #fff;
-    margin: 152px 5px;
+    margin: 100px 5px;
     font: 1.2em arial, sans-serif;
 }
 
 .ev-img4 h6 {
     color: #fff;
-    margin: 152px 5px;
+    margin: 100px 5px;
     font: 1.2em arial, sans-serif;
 }
 
@@ -1472,12 +1472,8 @@ footer {
         padding: 15px;
 
     }
-    .card-ev:hover{
-    
-        .ev-text:hover{
-            box-shadow: 0 2px 0 2px #c5c5c5;
-          
-        }
+    .card-ev:hover {
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     }
 
     .ev-text p {
@@ -1790,7 +1786,7 @@ footer {
     }
 
     .banner-main {
-        background: url("../img/Group\ 85f.png") no-repeat;
+        background: url("../img/Group\ 85f.png") center/cover;
         width: 100%;
         height: 35vh;
 
