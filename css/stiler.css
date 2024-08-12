@@ -370,6 +370,7 @@ margin: 0 5px;
     justify-content: center;
     flex-direction: column;
     width:50%;
+    height: 450px;
     margin: auto;
     padding: 10px;
 }
