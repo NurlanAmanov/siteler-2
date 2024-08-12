@@ -363,6 +363,7 @@ margin: 0 5px;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+   
 }
 
 .cards{
@@ -373,6 +374,7 @@ margin: 0 5px;
     width: 45%;
     height: 100%; 
     margin: 10px 5px;
+  
 }
 
 .cards-top{
@@ -395,13 +397,12 @@ margin: 0 5px;
 }
 
 .cards-content{
-    padding: 10px;
+    padding: 5px;
     width: 100%;
     background: #F6F6F8;
     h5{
         font-family: 'Montserrat';
-        font-weight: 500;
-        font-size: 16px;
+        font-size: 15px;
         color: #000000;
     }
     p{
@@ -413,7 +414,7 @@ margin: 0 5px;
         margin-right: 5px;
     }
     #more{
-        margin: 10px auto;
+        margin: 5px auto;
         width: 40%;
         height: max-content;
         background: #4FD3C4;
