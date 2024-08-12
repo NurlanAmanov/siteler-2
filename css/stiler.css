@@ -362,18 +362,19 @@ margin: 0 5px;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    gap: 10px;
 }
+
 .cards{
     display: flex;
-    align-items: center;
+    align-items: stretch; 
     justify-content: center;
     flex-direction: column;
-    width:50%;
-    height: 450px;
-    margin: auto;
-    padding: 15px;
+    width: 45%;
+    height: 100%; 
+    margin: 10px 5px;
 }
+
 .cards-top{
    width: 100%;
    img{
@@ -382,16 +383,15 @@ margin: 0 5px;
     object-fit: cover;
    }
 }
+
 .cards-button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-font-family: 'Montserrat';
-font-weight: 500;
-font-size: 11px;
-color: #FFFFFF;
-
-
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 11px;
+    color: #FFFFFF;
 }
 
 .cards-content{
@@ -399,32 +399,29 @@ color: #FFFFFF;
     width: 100%;
     background: #F6F6F8;
     h5{
-font-family: 'Montserrat';
-font-weight: 500;
-font-size: 16px;
-color: #000000;
-
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 16px;
+        color: #000000;
     }
     p{
-font-family: 'Montserrat';
-font-size: 12px;
-color: #676767;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        color: #676767;
     }
     i{
-        margin-right:5px;
+        margin-right: 5px;
     }
     #more{
         margin: 10px auto;
         width: 40%;
-        
         height: max-content;
         background: #4FD3C4;
         border-radius: 3px;
         border: none;
         overflow: hidden;
-       color: #fff;
+        color: #fff;
         padding: 5px;
-       
     }
     #cont{
         margin: auto 5px;
@@ -432,13 +429,10 @@ color: #676767;
         color: #fff;
         height: max-content;
         background: #635EBE;
-   
         border-radius: 3px;
         border: none;
         overflow: hidden;
-        
         padding: 5px;
-        
     }
 }
 footer {
