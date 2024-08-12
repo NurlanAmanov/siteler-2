@@ -662,7 +662,7 @@ option {
     background-size: cover;
     cursor: pointer;
     overflow: hidden;
-    border-radius: 2rem;
+    border-radius: 1rem;
     margin: 5px 10px;
     display: flex;
     align-items: flex-end;
@@ -975,12 +975,11 @@ footer {
         display: flex;
         align-items: flex-end;
         justify-content: center;
-
         width: 10%
     }
 
     #closed button {
-        width: 30%;
+        width: 25%;
         font-size: 20px;
         background: #fff;
         border-radius: 20px;
@@ -993,7 +992,7 @@ footer {
         justify-content: space-between;
         width: 100%;
         background: #573391;
-        padding: 10px;
+        padding: 5px;
     }
 
     .headtext h1 {
@@ -1271,14 +1270,14 @@ footer {
         display: block;
     }
 
-    .buttons #btn1:hover {
-        background: #eba206;
-        color: black;
+     #btn1:hover {
+        background: #4c488b;
+        color: white;
         transition: .3s;
     }
 
-    .buttons #btn2:hover {
-        background: #eb0638;
+ #btn2:hover {
+        background: #3ea397;
         color: #fff;
         transition: .3s;
     }
@@ -1434,11 +1433,6 @@ footer {
         transition: .3s ease;
     }
 
-    .btn a:hover {
-        background: #fff;
-        color: black;
-        transition: .2s ease;
-    }
 
     /* Ev elan */
     .evler {
@@ -1459,7 +1453,7 @@ footer {
         height: max-content;
         background: #fff;
         border-radius: 10px;
-
+        
     }
 
 
@@ -1477,6 +1471,13 @@ footer {
         width: 100%;
         padding: 15px;
 
+    }
+    .card-ev:hover{
+    
+        .ev-text:hover{
+            box-shadow: 0 2px 0 2px #c5c5c5;
+          
+        }
     }
 
     .ev-text p {
@@ -1585,6 +1586,7 @@ footer {
     }
 
     .sitetext {
+        transform: translateY(-50%);
         width: 40%;
         display: flex;
         align-items: center;
@@ -1626,7 +1628,7 @@ footer {
         background-size: cover;
         cursor: pointer;
         overflow: hidden;
-        border-radius: 2rem;
+        border-radius: 1rem;
         margin: 0 10px;
         display: flex;
         align-items: flex-end;
@@ -1644,7 +1646,8 @@ footer {
         background: #223;
         color: white;
         border-radius: 50%;
-        width: 50px;
+        width: 45px;
+        height: 45px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1803,7 +1806,7 @@ footer {
     .footercontent {
         width: 100%;
         display: flex;
-
+    align-items: center;
         justify-content: space-around;
         flex-direction: row;
         padding: 5px;
@@ -1811,9 +1814,10 @@ footer {
 
     .footer-cards {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
+  
 
 
     }
@@ -1833,7 +1837,7 @@ footer {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 20px;
+        margin-bottom:2px;
         color: #FFFFFF;
     }
 
@@ -1844,16 +1848,23 @@ footer {
         color: #FFF;
         margin: 5px;
         text-align: left;
-
     }
+  .footer-cards p i{
+  margin-bottom: 20px;
+  }
 
     .footer-cards img {
         width: 25px;
         height: auto;
-        margin-bottom: 13px;
+    
     }
-
+    .socialicons {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
     .socialicons i {
+     
         font-size: 25px;
         margin-left: 10px;
     }
