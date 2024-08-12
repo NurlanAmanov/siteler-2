@@ -246,6 +246,7 @@ footer {
 /* Login */
 
 .login-blcok{
+    max-width: 80%;
     margin: 30px auto;
     background: #fff;
     width: 80%;
@@ -256,6 +257,7 @@ footer {
 }
 .login-main{
     width: 100%;
+    max-width: 80%;
 h1{
     text-align: center;
 }
@@ -499,7 +501,7 @@ border-radius: 3px;
 
     .footer-cards {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
 
